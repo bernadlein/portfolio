@@ -6,7 +6,7 @@ export const DATA = {
   email: "leinsgreenadz@gmail.com",
   github: "https://github.com/bernadlein",
   linkedin: "#",
-  avatar: "https://discord.com/channels/726660554353278989/1007258344672722944/1407906665088417874",
+  // avatar: "https://discord.com/channels/726660554353278989/1007258344672722944/1407906665088417874",
   skills: [
     { group: "Programming & AI", items: ["Python", "YOLOv7", "Machine Learning", "Computer Vision"] },
     { group: "Web", items: ["React", "Vite", "Tailwind CSS", "Node.js", "Express", "SQL (dasar)"] },
@@ -27,3 +27,13 @@ export const DATA = {
   education: [{ degree: "S1 Teknik Informatika", school: "Universitas Surabaya", period: "—" }],
   certifications: [],
 };
+
+
+const BASE = import.meta.env.BASE_URL;
+
+export const DATA = {
+  // ...
+  avatar: `${BASE}avatar.jpg`,  
+  // ...
+};
+
