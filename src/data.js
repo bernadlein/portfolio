@@ -6,7 +6,7 @@ export const DATA = {
   email: "leinsgreenadz@gmail.com",
   github: "https://github.com/bernadlein",
   linkedin: "#",
-  avatar: "https://drive.google.com/file/d/1mML70dJ4eN5-5APQ-_XkTRX1PBaQfDnl/view?usp=sharing",
+  avatar: "https://discord.com/channels/726660554353278989/1007258344672722944/1407906665088417874",
   skills: [
     { group: "Programming & AI", items: ["Python", "YOLOv7", "Machine Learning", "Computer Vision"] },
     { group: "Web", items: ["React", "Vite", "Tailwind CSS", "Node.js", "Express", "SQL (dasar)"] },
